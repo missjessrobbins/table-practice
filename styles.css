@@ -1,0 +1,48 @@
+td, th {
+  border: 1px solid gray;
+  text-align: center;
+  background-color: lightgray;
+  padding: 10px;
+  width: 25%;
+}
+
+.centered {
+  text-align: center;
+}
+
+body {
+  background: azure;
+  font-family: Georgia;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+h4 {
+  background-color: gray;
+  opacity: .75;
+  padding: 10px;
+}
+
+th {
+  background-color: gray;
+}
+
+table {
+  opacity: .75;
+  table-layout: fixed;
+}
+
+.code-example {
+  font-family: Lucida Console;
+  background-color: lightgray;
+  font-size: 14px;
+}
+
+aside {
+  padding: 20px;
+  display: inline-block;
+}
+
+.text-indent {
+  text-indent: 30px;
+}
