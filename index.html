@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Selectors</title>
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1 class="centered">CSS Selectors</h1>
+      <h3 class="centered">In this article we will go over some common CSS Selectors and their functions</h3>
+      <h4 class="centered">Selecting HTML Elements</h4>
+      <table>
+      <!-- TABLE HEADINGS -->
+        <tr>
+          <th></th>
+          <th>HTML <br>(Example)</th>
+          <th scope="col">CSS Selector <br>(Example)</th>
+          <th scope="col">Purpose</th>
+        </tr>
+      <!-- ROW 1 -->
+        
+        <tr>
+          <th scope="row">By HTML Tag</th>
+          <td class="code-example">&lt;h1&gt;</td>
+          <td class="code-example">h1 {<br><br>}</td>
+          <td>By selecting elements based on their HTML tag, the value applies to all elements with that tag.</td>
+        </tr>
+      <!-- ROW 2 -->
+        <tr>
+          <th scope="row">By Class</th>
+          <td class="code-example">&lt;h1 class="uppercase"&gt;</td>
+          <td class="code-example">.uppercase {<br><br>}</td>
+          <td>By selecting elements by their class name, you can apply a CSS rule to a more specific range of HTML elements</td>
+        </tr>
+      <!-- ROW 3 -->
+        <tr>
+          <th>By ID</th>
+          <td class="code-example">&lt;input type="text" id="email"&gt;</td>
+          <td class="code-example">#email {<br><br>}</td>
+          <td>By selecting elements by their ID, you can be even more specific about which elements you wish to style</td>
+        </tr>
+      </table>
+      <h4 class="centered">Chaining Selectors</h4>
+      <p>If you wanted to select, for example, only the <span class="code-example">&lt;p&gt;</span> elements nested under the <span class="code-example">&lt;footer&gt;</span> element, you would use the following CSS selector:</p>
+      <aside class="code-example">footer p {<br><p class="text-indent">color: blue;</p>}</aside>
+    </main>
+  </body>
+  
+</html>
